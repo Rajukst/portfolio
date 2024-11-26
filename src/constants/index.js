@@ -5,26 +5,29 @@ import {
     web,
     javascript,
     typescript,
-    html,
-    css,
     reactjs,
     redux,
-    tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
     starbucks,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
-  
+  import python from "../assets/tech/python.png"
+  import terraform from "../assets/tech/terraform.png"
+  import jenkins from "../assets/tech/jenkins.png"
+  import kubernetes from "../assets/tech/kubernetes.png"
+  import nginx from "../assets/tech/nginx.png"
+  import linux from "../assets/tech/linux.png"
+  import ec2 from "../assets/tech/ec2.png"
+  import saminyasar from "../assets/tech/samin-yasar.png"
+  import ariful from "../assets/tech/ariful-alam.png"
+  import jahid from "../assets/tech/jahid.jpg"
   export const navLinks = [
     {
       id: "about",
@@ -61,20 +64,16 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
     {
       name: "TypeScript",
       icon: typescript,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
     {
       name: "React JS",
@@ -85,28 +84,36 @@ import {
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Jenkins",
+      icon: jenkins,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Terraform",
+      icon: terraform,
+    },
+    {
+      name: "Kubernetes",
+      icon: kubernetes,
+    },
+    {
+      name: "Nginx",
+      icon: nginx,
+    },
+    {
+      name: "Linux",
+      icon: linux,
+    },
+    {
+      name: "EC2",
+      icon: ec2,
     },
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -162,27 +169,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Raju proved me wrong.",
+      name: "Samin Yasar",
+      designation: "Founder & CEO",
+      company: "Fleetmart Lifestyle",
+      image: saminyasar,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met a web developer who truly cares about optimizing performance.",
+      name: "Ariful Alam",
+      designation: "Managing Director",
+      company: "Cloth Bangladesh Limited",
+      image: ariful,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "After Raju optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Jahid Iqbal",
+      designation: "Founder & CEO",
+      company: "Anaj Shopping",
+      image: jahid,
     },
   ];
   
@@ -210,7 +217,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://fleetmartbd.com/",
+      source_code_link: "https://fleetmartbd.com",
     },
     {
       name: "Cloth Bangladesh",
