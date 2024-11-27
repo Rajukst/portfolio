@@ -8,8 +8,6 @@ import {
     reactjs,
     redux,
     nodejs,
-    mongodb,
-    git,
     docker,
     starbucks,
     tesla,
@@ -18,16 +16,16 @@ import {
     jobit,
     tripguide,
   } from "../assets";
+  import samin from "../assets/tech/samin.png"
+  import ariful from "../assets/tech/ariful.png"
+  import jahid from "../assets/tech/jahid.jpg"
   import python from "../assets/tech/python.png"
+  import ec2 from "../assets/tech/ec2.png"
   import terraform from "../assets/tech/terraform.png"
   import jenkins from "../assets/tech/jenkins.png"
-  import kubernetes from "../assets/tech/kubernetes.png"
+  import kubernetes from  "../assets/tech/kubernets.png"
   import nginx from "../assets/tech/nginx.png"
   import linux from "../assets/tech/linux.png"
-  import ec2 from "../assets/tech/ec2.png"
-  import saminyasar from "../assets/tech/samin-yasar.png"
-  import ariful from "../assets/tech/ariful-alam.png"
-  import jahid from "../assets/tech/jahid.jpg"
   export const navLinks = [
     {
       id: "about",
@@ -84,36 +82,32 @@ import {
       icon: redux,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "Jenkins",
-      icon: jenkins,
-    },
-    {
-      name: "Terraform",
-      icon: terraform,
-    },
-    {
-      name: "Kubernetes",
-      icon: kubernetes,
-    },
-    {
-      name: "Nginx",
-      icon: nginx,
-    },
-    {
-      name: "Linux",
-      icon: linux,
-    },
-    {
       name: "EC2",
       icon: ec2,
     },
     {
-      name: "git",
-      icon: git,
+      name: "terraform",
+      icon: terraform,
+    },
+    {
+      name: "jenkins",
+      icon: jenkins,
+    },
+    {
+      name: "kubernetes",
+      icon: kubernetes,
+    },
+    {
+      name: "nginx",
+      icon: nginx,
+    },
+    {
+      name: "linux",
+      icon: linux,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
     },
     {
       name: "docker",
@@ -169,26 +163,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Raju proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Raju Ahammed proved me wrong.",
       name: "Samin Yasar",
       designation: "Founder & CEO",
       company: "Fleetmart Lifestyle",
-      image: saminyasar,
+      image: samin,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about optimizing performance.",
+        "I've never met a web developer who truly cares about their clients' success like Raju Ahammed does.",
       name: "Ariful Alam",
-      designation: "Managing Director",
-      company: "Cloth Bangladesh Limited",
+      designation: "Founder & CEO",
+      company: "Cloth Bangladesh",
       image: ariful,
     },
     {
       testimonial:
-        "After Raju optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Jahid Iqbal",
       designation: "Founder & CEO",
-      company: "Anaj Shopping",
+      company: "Anaj Lifestyle",
       image: jahid,
     },
   ];
@@ -217,7 +211,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://fleetmartbd.com",
+      source_code_link: "https://fleetmartbd.com/",
     },
     {
       name: "Cloth Bangladesh",
